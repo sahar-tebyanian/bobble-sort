@@ -1,9 +1,9 @@
 # bobble-sort
-date = [23,3,2,5,14,63,89]
-inserting_date = []
+data = [23, 3, 2, 5, 14, 63, 89]
 
-for i in rage(len(data[i])
-    inserting_data.append(data[i])
+for i in range(len(data)):
+    for j in range(0, len(data) - i - 1):
+        if data[j] > data[j + 1\]:
+            data[j], data[j + 1] = data[j + 1], data[j]
 
-print("Original array:", data)
-print("Array agter
+print("Sorted array:", data) 
